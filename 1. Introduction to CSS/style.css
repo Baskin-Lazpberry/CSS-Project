@@ -1,0 +1,49 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(228, 228, 228);
+}
+
+.main {
+    box-sizing: border-box;
+    width: 700px;
+    margin: 35px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius:10px;
+}
+
+.header .title {
+    background-color: skyblue;
+    text-align: center;
+    color: aliceblue;
+}
+
+.top {
+    font-size: 18px;
+}
+
+#greeting {
+    color:orange;
+    text-decoration: underline;
+}
+
+.content {
+    border: 2px solid lightblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content h3 {
+    margin-top: 0;
+}
+
+.content .title {
+    background-color: lightcyan;
+}
+
+#ps {
+    text-align: end;
+    color: lightslategray;
+    font-size: 12px;
+}
