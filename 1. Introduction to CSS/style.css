@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(228, 228, 228);
 
@@ -10,7 +14,6 @@ body {
 }
 
 .main {
-    box-sizing: border-box;
     width: 700px;
     margin: 35px;
     padding: 20px;
