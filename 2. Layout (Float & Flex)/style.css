@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+}
+
+.navigator {
+    border-bottom: 1px solid gray;
+    background-color: aliceblue;
+}
+
+.nav_inner {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    padding-top: 6px
+}
+
+.menu {
+    float: left;
+    width: calc(100% - 200px);
+    text-align: center;
+}
+
+.menu_ul {
+    display: inline-block;
+    padding: 0;
+}
+
+.menu_ul li {
+    float: left;
+    list-style: none;
+    padding: 30px 30px;
+}
+
+.menu_ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+.menu_ul li a:hover {
+    color: lightcoral;
+
+}
+
+.user {
+    float: right;
+    padding-top: 6px
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main {
+    width: 700px;
+    margin: 35px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius:10px;
+}
+
+.header .title {
+    background-color: skyblue;
+    text-align: center;
+    color: aliceblue;
+}
+
+.top {
+    font-size: 18px;
+}
+
+#greeting {
+    color:orange;
+    text-decoration: underline;
+}
+
+.content {
+    border: 2px solid lightblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content h3 {
+    margin-top: 0;
+}
+
+.content .title {
+    background-color: lightblue;
+}
+
+.giftcard {
+    color: goldenrod;
+    font-weight: 600;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: 600;
+    color: skyblue;
+    font-style: italic;
+}
+
+#ps {
+    text-align: end;
+    color: lightslategray;
+    font-size: 12px;
+}
