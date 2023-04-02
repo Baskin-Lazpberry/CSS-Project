@@ -54,7 +54,7 @@ body {
 
 .menu_ul li a:hover {
     color: lightcoral;
-
+    background-color: lightpink;
 }
 
 .user {
