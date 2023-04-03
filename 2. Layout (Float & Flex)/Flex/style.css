@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    min-width: 760px;
+}
+
+/* ========================Nav part======================== */
+.navigator {
+    height: 60px;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logolink {
+    height: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.menu_ul {
+    display: flex;
+    padding: 0;
+}
+
+.menu_ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.menu_ul li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.menu_ul li a:hover {
+    color: lightcoral;
+    background-color: lightblue;
+    border-radius: 5px solid lightblue;
+}
+
+.user {
+    height: 50px;
+}
+
+.user img{
+    width: 50px;
+    height: 50px;
+}
+
+/* ========================Main part======================== */
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 700px;
+    margin: 35px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid gray;
+    border-radius:10px;
+}
+
+.header .title {
+    background-color: skyblue;
+    text-align: center;
+    color: white;
+}
+
+.top {
+    font-size: 18px;
+}
+
+#greeting {
+    color:orange;
+    text-decoration: underline;
+}
+
+.content {
+    border: 2px solid skyblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.content h3 {
+    margin-top: 0;
+}
+
+.content .title {
+    background-color: skyblue;
+}
+
+.first {
+    color: orange;
+    font-weight: 600;
+}
+
+.giftcard {
+    color: goldenrod;
+    font-weight: 600;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: 600;
+    color: skyblue;
+    font-style: italic;
+}
+
+#ps {
+    text-align: end;
+    color: lightslategray;
+    font-size: 12px;
+}
