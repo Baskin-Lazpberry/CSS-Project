@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    color: darkblue;
+    font-size: 38px;
+    border: 2px solid orchid;
+    font-family: '배민 한나체 Air';
+    word-spacing: 5px;
+}
+
+.inner-box {
+    color: darkred;
+    font-family: 'Gideon Roman', cursive;
+    
+    border: 2px solid orange;
+    
+}
+
+.inner-box p{
+    margin: 0;
+    display: inline-block;
+    height: 2em;
+}
+
+
+
+
+@font-face {
+    font-family: '배민 한나체 Air';
+    src: url("./BMHANNAAir_ttf.ttf") format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
