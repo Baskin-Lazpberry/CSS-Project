@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainBanner {
+    height: 230px;
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBanner .text {
+    font-size: 42px;
+    color: white;
+    text-shadow: 0 0 15px whitesmoke;
+    animation: titleText 1s ease-in-out infinite alternate;
+}
+
+@keyframes titleText {
+    0% {
+        transform: translateY(5px) scale(1.01);
+        text-shadow: 0 0 15px whitesmoke;
+    }
+    15% {
+        transform: translateY(3px) scale(1.00);
+        text-shadow: 0 0 0px whitesmoke;
+    }
+    85% {
+        transform: translateY(-3px) scale(1.00);
+        text-shadow: 0 0 0px whitesmoke;
+    }
+    100% {
+        transform: translateY(-5px) scale(1.01);
+        text-shadow: 0 0 15px whitesmoke;
+    }
+}
